@@ -1,0 +1,19 @@
+{
+	// コンテナ名
+	"name": "container_torch110", 
+
+	// docker-compose.ymlの場所
+	"dockerComposeFile": "../../docker-compose.yml",
+
+	// docker-compose.yml 内のサービス名
+    "service": "torch110",
+
+	// コンテナ内のどこをワークスペースとするか
+    "workspaceFolder": "/work",
+	
+	// コンテナ内で使用する拡張機能のID
+	"extensions": [
+
+	]
+
+}
